@@ -1,6 +1,8 @@
 
         p{
             margin-left: 35px;
+            font-size: 20px;
+           
            
         }
 
@@ -8,10 +10,16 @@
         h1{
             margin-left: 25px;
         }
+        h2{
+          margin-left: 25px;
+      }
 
         h4{
             margin-left: 25px;
         }
+        h3{
+          margin-left: 25px;
+      }
    
         h5{
             margin-left: 25px;
@@ -20,24 +28,12 @@
         float: left;
       }
 
-
+     
 
       #kitap{
         float:left;
       }
       
-      #otobiyo{
-        font-size: 20px;
-      }
-
-      #hobi{
-        font-size: 20px;
-      }
-
-      #cv{
-        font-size: 20px;
-      }
-
       #eposta{
        
         margin-left: 25px;
@@ -46,5 +42,31 @@
       #github{
         margin-left: 25px;
       }
+
+      #loginform{
+
+        text-align: center;
+       
+      }
+      #email{
+        margin-right: 20px;
+      }
+      #giris{
+        margin-right: 10px;
+      }
+      #girisyap{
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 40px;
+        
+      }
+      #k-adi{
+        margin-left: 240px;
+      }
+      #k-soyadi{
+        margin-left: 215px;
+      }
+
+    
 
       

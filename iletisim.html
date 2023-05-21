@@ -28,6 +28,7 @@
 
 
     <script>
+
         function boskontrol2() {
         var soyad = document.forms["formum"]["soyad"].value;
       
@@ -43,13 +44,13 @@
 <body>
     <nav class="navbar bg-primary navbar-dark navbar-expand-sm my-3">
         <div class="container-fluid">   
-            <a href="#" class="navbar-brand">Giriş Yap</a> 
+            <a href="#" class="navbar-brand">İletişim</a> 
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a href="login.html" class="nav-link">Giriş Yap</a>
                 </li>
                 <li class="nav-item">
-                    <a href="hakkında.html" class="nav-link">Hakkında</a>
+                    <a href="index.html" class="nav-link">Hakkında</a>
                 </li>
                 <li class="nav-item">
                     <a href="ozgecmis.html" class="nav-link">Özgeçmiş</a>
@@ -95,8 +96,22 @@
           <option value="Diğer">Belirtmek İstemiyorum</option>
         </select> <br><br>
 
-       
+        <div>
 
+            <p style="margin-left: 200px;">En sevdigin programlama dili nedir?</p>
+
+            <input type="checkbox" id="c++2" name="programlama" style="margin-left: 250px;">
+            <label for="c++2">C++</label>
+
+            <input type="checkbox" id="python2" name="programlama">
+            <label for="python2">Python</label>
+
+            <input type="checkbox" id="c#2" name="programlama">
+            <label for="c#2">C#</label>
+
+        
+        </div>
+<br>
         
        <a href="iletisim-veri.html" target="_blank"><input type="submit" value="Veriyi Göster" class="btn btn-primary" style="margin-left: 240px;"></input></a> 
         <input type="reset"value="Temizle" class="btn btn-success">

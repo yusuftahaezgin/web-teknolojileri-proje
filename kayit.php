@@ -54,7 +54,7 @@
         $girilenEposta = $_POST["eposta"];
         $girilenSifre = $_POST["sifre"];
 
-        
+  
         if ($eposta===$girilenEposta && $sifre===$girilenSifre){
             echo "Hoşgeldiniz G221210008";
         }
